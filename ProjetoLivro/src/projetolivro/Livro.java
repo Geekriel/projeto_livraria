@@ -13,7 +13,7 @@ public class Livro implements Publicacao {
 				+ pagAtual + ",\n aberto = " + aberto + ",\n leitor = " + leitor.getNome() + ",\n Idade = "
 				+ leitor.getIdade() + ",\n Sexo = " + leitor.getSexo() + "]";
 	}
-
+	//linha
 	public Livro(String titulo, String autor, int totPagina, Pessoa leitor) {
 		this.titulo = titulo;
 		this.autor = autor;
